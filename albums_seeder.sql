@@ -6,7 +6,7 @@ CREATE TABLE albums (
 	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	artist VARCHAR(50),     -- string for storing the recording artist_name
 	name VARCHAR(60),       -- string for storing a record_name
-	release_date SMALLINT,  -- integer representing year record was released
+	release_date SMALLINT UNSIGNED,  -- integer representing year record was released
 	genre VARCHAR(80),      -- string for storing the records genres
 	sales FLOAT,	        -- sales value for number of records sold in millions
 	PRIMARY KEY (id)
