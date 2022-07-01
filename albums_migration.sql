@@ -11,4 +11,3 @@ CREATE TABLE albums (
     genre VARCHAR(80),      -- string for storing the records genres
     PRIMARY KEY (id)
 );
-
